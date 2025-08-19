@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... all your head content remains the same ... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Web Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container"></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <!-- These spans will be styled with CSS to create the three "bars" of the icon. -->
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        
+
+        <div class="theme-switcher">
+            <button 
+  id="theme-toggle" 
+  class="theme-btn"
+  aria-label="Toggle theme between light and dark"
+>
+    <i class="fas fa-sun"></i>
+</button>
+            <label for="theme-toggle" class="switch-label">
+                <!-- We will visually hide the checkbox but keep it for functionality and accessibility. -->
+                <input type="checkbox" id="theme-toggle" class="switch-checkbox">
+                <!-- This span will be styled with CSS to look like the track and thumb of a slider. -->
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+    </header>
+
+    
+
+
+    <section id="hero">
+        <div class="container">
+            <h1>Himanshu Kumar</h1>
+            <p class="hero-subtitle">Creative Web Developer & UI/UX Enthusiast</p>
+            <p>I design and build beautiful, responsive, and user-friendly websites and applications.</p>
+
+        </div>
+    </section>
+
+    
+
+
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+            <div class="about-image">
+
+
+                <img 
+                  src="./images/profile-picture.jpg.jpg" 
+                  class="about-me-image" 
+                  alt="A professional headshot of [Your Name] smiling, with a neutral background."
+                >
+            </div>
+            
+            
+            <div class="about-text">
+                
+                <p>
+                    Hello! I'm [Your Name], a passionate and creative web developer based in [Your City/Country]. My journey into the world of code began with a fascination for how elegant design and powerful technology could come together to create amazing digital experiences.
+                </p>
+                <p>
+                    I specialize in front-end development, with a strong command of HTML, CSS, and JavaScript. I love bringing ideas to life in the browser and am always eager to learn new technologies and frameworks to enhance my skills. When I'm not coding, you can find me exploring the outdoors, reading a good book, or working on personal projects that challenge me to think outside the box.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+
+    
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+
+            <div class="projects-container">
+
+        <div class="project-card">
+        <img src="images/project-placeholder-1.jpg.jpg" alt="A screenshot or mockup of Project One" class="project-image">
+        <div class="project-info">
+            <h3>Project One Title</h3>
+            <p>
+                A brief and compelling description of the project, highlighting the key technologies used and the problem it solves. Keep it to 2-3 sentences.
+            </p>
+        </div>
+        <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">View Code</a>
+        </div>
+    </div>
+
+
+        <div class="project-card">
+        <img src="images/project-placeholder-2.jpg.jpg" alt="A screenshot or mockup of Project Two" class="project-image">
+        <div class="project-info">
+            <h3>Project Two Title</h3>
+            <p>A brief and compelling description of the project...</p>
+        </div>
+        <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">View Code</a>
+        </div>
+    </div>
+
+
+        <div class="project-card">
+        <img src="images/project-placeholder-3.jpg.jpg" alt="A screenshot or mockup of Project Three" class="project-image">
+        <div class="project-info">
+            <h3>Project Three Title</h3>
+            <p>A brief and compelling description of the project...</p>
+        </div>
+        <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">View Code</a>
+        </div>
+    </div>
+</div>
+        
+    
+</div>
+           
+        </div>
+    </section>
+
+
+<section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>
+                Have a question or want to work together? Feel free to reach out!
+            </p>
+            <div>
+            <form    
+            id="contact-form" 
+            action="https://formspree.io/f/xwpqdeqa"
+             method="POST"
+            >
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+
+            <div id="form-status"></div>
+
+                <button type="submit">Send Message</button>
+        </form>
+        </div>
+    </section>
+
+    
+<footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+            
+            <ul>
+                
+                <li><a href="https://github.com/himanshuii10" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/himanshu-kumar-561a792a1/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://x.com/himanshu7110" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+</html>
